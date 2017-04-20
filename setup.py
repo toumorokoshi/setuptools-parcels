@@ -21,7 +21,7 @@ setup(name='setuptools-parcels',
       packages=find_packages(),
       install_requires=install_requires,
       classifiers=[
-          'Development Status :: 4 - Beta',
+          'Development Status :: 3 - Alpha',
           'Operating System :: MacOS',
           'Operating System :: POSIX :: Linux',
           'Topic :: System :: Software Distribution',
