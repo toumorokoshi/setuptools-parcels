@@ -8,7 +8,7 @@ Improvements over package_data include:
 
 * simple way to include all non-python files found in packages
 
-.. warn::
+.. note::
 
    An alternative way to work around specifying package_data is to
    specify the files you would like in distutil's MANIFEST.in, and use the
