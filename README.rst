@@ -31,7 +31,7 @@ additional parcels parameter:
 
     setup(...
           # add it here
-          setup_reqires=["setuptools-parcels", "vcver"],
+          setup_requires=["setuptools-parcels", "vcver"],
           parcels={}
     )
 
