@@ -32,9 +32,8 @@ additional parcels parameter:
     setup(...
           # add it here
           setup_requires=["setuptools-parcels", "vcver"],
-          # setuptools extensions require activation via specifying
-          # an argument with the same name as the extension. So adding
-          # this argument is required.
+          # an argument with the same name as the extension (in this case the extension is parcels).
+          # this is required to activate setuptools-parcels.
           parcels={}
     )
 
